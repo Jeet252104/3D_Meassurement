@@ -1,0 +1,8 @@
+# Canonical dependency entrypoint
+# Use split files for base + GPU dependencies.
+
+-r requirements/base.txt
+-r requirements/gpu.txt
+
+# For development tools (linters, test, etc.), optionally install:
+# -r requirements/dev.txt

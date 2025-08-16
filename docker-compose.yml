@@ -1,0 +1,58 @@
+# Docker Compose for 3D Measurement System (CPU-Only)
+# Version: 2.0.0
+# 
+# WARNING: This is the CPU-only version. Performance will be very slow.
+# For production use, please use docker-compose.gpu.yml instead.
+#
+# Usage:
+#   docker-compose up -d
+#   docker-compose logs -f
+#   docker-compose down
+
+services:
+  measurement-system:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
+    image: 3d-measurement:cpu-v2.0
+    container_name: 3d-measurement-cpu
+    
+    # Port mapping
+    ports:
+      - "8000:8000"
+    
+    # Environment variables
+    environment:
+      - LOG_LEVEL=INFO
+      - DEVICE=cpu
+      - WORKERS=1
+    
+    # Volume mounts
+    volumes:
+      - ./output:/app/output
+      - ./logs:/app/logs
+      - ./data:/app/data
+    
+    # Restart policy
+    restart: unless-stopped
+    
+    # Health check
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    
+    # Networking
+    networks:
+      - measurement-network
+    
+    # Resource limits
+    mem_limit: 8g
+    memswap_limit: 8g
+
+networks:
+  measurement-network:
+    driver: bridge
