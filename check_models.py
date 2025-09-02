@@ -7,7 +7,9 @@ This script verifies:
 2. Metric3D model files
 3. Model dependencies
 4. Download missing components
+update
 """
+
 
 import sys
 import subprocess
