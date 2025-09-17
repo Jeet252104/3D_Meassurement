@@ -1,5 +1,6 @@
 """
 Test script to check COLMAP GPU capabilities.
+update
 """
 import sys
 

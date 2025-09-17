@@ -8,7 +8,9 @@ Usage:
     python test_api.py                    # Test all endpoints
     python test_api.py --health           # Test health endpoint only
     python test_api.py --measure IMG1 IMG2 IMG3  # Test measurement endpoint
+    update
 """
+
 
 import sys
 import argparse

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Quick test to verify COLMAP GPU settings are correct.
+Quick test to verify COLMAP GPU settings are correct.update 
 """
 
 import pycolmap
