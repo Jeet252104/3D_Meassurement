@@ -3,6 +3,7 @@
 # Usage: ./docker-run-cpu.sh [start|stop|restart|logs|status]
 
 
+
 set -e
 
 # Colors

@@ -11,6 +11,7 @@ LABEL maintainer="3D Measurement Team"
 LABEL description="3D measurement system (CPU-only, for testing/development)"
 LABEL version="2.0.0"
 
+
 # Prevent interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
 
