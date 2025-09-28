@@ -2,6 +2,7 @@
 # Quick start script for 3D Measurement System Docker deployment
 # Usage: ./docker-run.sh [start|stop|restart|logs|status|build]
 
+
 set -e
 
 # Colors for output

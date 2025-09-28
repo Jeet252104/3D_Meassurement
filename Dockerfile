@@ -2,6 +2,8 @@
 # This is a fallback Dockerfile for systems without GPU
 # WARNING: Performance will be significantly degraded without GPU acceleration
 
+
+
 FROM ubuntu:22.04
 
 # Metadata

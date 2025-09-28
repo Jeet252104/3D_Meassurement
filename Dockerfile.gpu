@@ -1,5 +1,7 @@
 # 3D Measurement System - GPU-Accelerated Dockerfile
 # Base: CUDA 12.1 with Ubuntu 22.04
+
+
 FROM nvidia/cuda:12.1.0-devel-ubuntu22.04
 
 # Metadata

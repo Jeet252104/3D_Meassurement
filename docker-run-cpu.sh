@@ -2,6 +2,7 @@
 # Quick start script for CPU-only version (no GPU required)
 # Usage: ./docker-run-cpu.sh [start|stop|restart|logs|status]
 
+
 set -e
 
 # Colors
