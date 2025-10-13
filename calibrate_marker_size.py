@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Calibrate marker size based on known object dimensions.
-
 Usage:
     python calibrate_marker_size.py --actual-width 21 --actual-height 15 --actual-depth 7.8
 """

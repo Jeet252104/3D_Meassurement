@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Calibrate depth scale factor based on ground truth measurements.
-
 Usage:
     python calibrate_depth_scale.py
 """

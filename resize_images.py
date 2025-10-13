@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Resize images for optimal GPU processing.
-
 Your images (3072x4096) are too large for GPU SIFT extraction.
 This script resizes them to 1024px max dimension.
 """

@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Main entry point for 3D Measurement System.
-
 Usage:
     python main.py --help                    # Show help
     python main.py serve                     # Start API server

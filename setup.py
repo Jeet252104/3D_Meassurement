@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Setup script for 3D Measurement System.
-
 This script:
 1. Checks system requirements
 2. Verifies GPU availability

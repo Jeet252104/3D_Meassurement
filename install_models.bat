@@ -2,6 +2,7 @@
 REM Install Models Script for Windows
 REM Installs COLMAP and other required models
 
+
 echo ============================================================
 echo 3D MEASUREMENT SYSTEM - MODEL INSTALLATION
 echo ============================================================
