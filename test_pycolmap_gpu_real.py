@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Test if pycolmap actually uses GPU when we set device=Device.cuda
+
 """
 
 import pycolmap

@@ -2,6 +2,7 @@
 import numpy as np
 
 # From logs:
+
 marker_scale_mm_per_px = 6.1724  # mm/pixel
 depth_scale = 0.8273  # unitless ratio
 

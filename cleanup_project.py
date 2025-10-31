@@ -8,6 +8,7 @@ This script removes old implementations and organizes the project structure:
 3. Removes test files
 4. Organizes images into examples/ directory
 5. Cleans up unnecessary files
+
 """
 
 import shutil

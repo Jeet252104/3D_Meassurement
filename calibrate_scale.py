@@ -3,6 +3,7 @@
 Scale Calibration Tool
 
 This tool helps you calibrate the measurement system using a known reference.
+
 """
 
 import json
