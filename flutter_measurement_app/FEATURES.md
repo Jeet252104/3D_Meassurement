@@ -2,6 +2,7 @@
 
 Complete list of implemented features and functionality.
 
+
 ---
 
 ## 🎯 Core Features

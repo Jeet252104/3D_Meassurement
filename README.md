@@ -43,7 +43,7 @@ docker compose -f docker-compose.gpu.yml up --build
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch 2.5+](https://img.shields.io/badge/PyTorch-2.5+-red.svg)](https://pytorch.org/)
 [![CUDA 12.1](https://img.shields.io/badge/CUDA-12.1-green.svg)](https://developer.nvidia.com/cuda-downloads)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 ---
 
@@ -1248,19 +1248,6 @@ We welcome contributions! Areas of interest:
 - Mobile optimization
 
 ---
-
-## 📞 Contact & Support
-
-- **Documentation**: See `/docs` folder
-- **Issues**: GitHub Issues
-- **Email**: support@3dmeasurement.ai
-- **Discord**: [Join our community](https://discord.gg/3dmeasurement)
-
----
-
-## 📜 License
-
-MIT License - See [LICENSE](LICENSE) file
 
 ---
 

@@ -7,6 +7,7 @@ This script:
 3. Installs dependencies
 4. Downloads models (optional)
 5. Runs tests (optional)
+git 
 """
 
 import subprocess

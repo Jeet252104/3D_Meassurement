@@ -84,6 +84,7 @@ print(f"Width: {result.measurements['width']:.1f} cm")
 
 ### 1. Image Capture
 
+
 ✅ **DO:**
 - Take 5-10 images from different angles
 - Ensure 30-50% overlap between images
